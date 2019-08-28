@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8">
+      <link href="main.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+      <title>Bubble Report Converter</title>
+    </head>
+    <body>
+        <div class="area">
+            <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <div class="container">
+                <div>
+                    <img src="img/21700.png" class="hero_image"/>
+                </div>
+                <div class="title" style="text-align: center">
+                    <h1>Bubble Report Converter</h1>
+                </div>
+                <div class="modal" style="text-align: center; padding: 1%">
+                    <h5>Please select your file using the upload button.<br><br>Magic will do the rest.</h5>
+                </div>
+                <div style="z-index: 3; padding: 1%">
+                    <input type="file" id="real-file" hidden="hidden" />
+                    <button type="button" id="custom-button">Choose file & Download</button>
+                </div>
+                <span id="custom-text" style="padding: 1%">No file chosen, yet.</span>
+            </div>
+        </div>
+
+        <script src="./actions.js"></script>
+<!--        <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script>
+            function goPython(){
+                $.ajax({
+                url: "./bubbles.py",
+                }).done(function() {
+                alert('finished python script');;
+                });
+            }
+        </script>-->
+        
+    </body>
+  </html>
